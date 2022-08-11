@@ -46,7 +46,7 @@ When installing or publishing a Docker image, the Docker registry does not curre
 
 {% data reusables.package_registry.required-scopes %}
 
-You can authenticate to {% data variables.product.prodname_registry %} with Docker using the `docker` login command.
+You can authenticate to {% data variables.product.prodname_registry %} with Docker using the `docker` login command on the console.
 
 To keep your credentials secure, we recommend you save your personal access token in a local file on your computer and use Docker's `--password-stdin` flag, which reads your token from a local file.
 
